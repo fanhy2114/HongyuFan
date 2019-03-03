@@ -1714,15 +1714,15 @@ pre .javascript .function {
   font-size: 0.93rem;
   line-height: 1.6em;
   word-break: break-all;
-  background: rgba(255,255,255,0.4);
+  background: rgba(255,255,255,0.2);
 }
 .my_post_copyright p {
   margin: 0;
 }
 .my_post_copyright span {
   display: inline-block;
-  width: 5.2em;
-  color: #b5b5b5;
+  width: 6.4em;
+  color: rgba(0,0,0,0) 0;
   font-weight: bold;
 }
 .my_post_copyright .raw {
@@ -2032,7 +2032,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2967ff;
+  background: #81a2ff;
 }
 .links-of-blogroll {
   font-size: 13px;
