@@ -476,39 +476,30 @@
           
 
   
-        <div onclick="showGitment()" id="gitment_title" class="gitment_title">显示 Gitment 评论</div>
-        <div id="container" style="display:none"></div>
-        <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-        <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-        <script>
-        const myTheme = {
-          render(state, instance) {
-            const container = document.createElement('div');
-            container.lang = "en-US";
-            container.className = 'gitment-container gitment-root-container';
-            container.appendChild(instance.renderHeader(state, instance));
-            container.appendChild(instance.renderEditor(state, instance));
-            container.appendChild(instance.renderComments(state, instance));
-            container.appendChild(instance.renderFooter(state, instance));
-            return container;
-          }
-        }
-        function showGitment() {
-          $("#gitment_title").attr("style", "display:none");
-          $("#container").attr("style", "").addClass("gitment_container");
-          var gitment = new Gitment({
-            id: window.location.pathname,
-            theme: myTheme,
-            owner: 'fanhy2114',
-            repo: '',
-            oauth: {
-              client_id: '8915c856073f634bc377',
-              client_secret: 'd66d45915ddc2bc964258506b9bb7ff2887969c6'
-            }
-          });
-          gitment.render('container');
-        }
-        </script>
+    
+     
+     
+     
+     
+     <link rel="stylesheet" href="https://www.wenjunjiang.win/css/gitment.css">
+     <script src="https://www.wenjunjiang.win/js/gitment.js"></script>
+     
+         <script type="text/javascript">
+             var gitment = new Gitment({
+                 id: document.location.href, 
+                 owner: 'fanhy2114',
+                 repo: 'fanhy2114.github.io',
+                 oauth: {
+                     client_id: '8915c856073f634bc377',
+                     client_secret: 'd66d45915ddc2bc964258506b9bb7ff2887969c6'
+                 }});
+             gitment.render('gitment-container');
+         </script>
+     
+ 
+     
+        <div id="gitment-container"></div>
+    
 
   
 
@@ -900,47 +891,27 @@
 
 
 
-<!-- LOCAL: You can save these files to your site and update links -->
-    
-        
-        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
-        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
-    
-<!-- END LOCAL -->
 
-    
-
-    
-      <script type="text/javascript">
-      function renderGitment(){
-        var gitment = new Gitmint({
-            id: window.location.pathname, 
-            owner: '28495094',
-            repo: 'fanhy2114.github.io',
-            
-            lang: "zh-Hans" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
-            
-            oauth: {
-            
-            
-                client_secret: 'd66d45915ddc2bc964258506b9bb7ff2887969c6',
-            
-                client_id: '8915c856073f634bc377'
-            }});
-        gitment.render('gitment-container');
-      }
-
-      
-      renderGitment();
-      
-      </script>
-    
-
-
-
-
-
-
+     
+     
+     
+     
+     <link rel="stylesheet" href="https://www.wenjunjiang.win/css/gitment.css">
+     <script src="https://www.wenjunjiang.win/js/gitment.js"></script>
+     
+         <script type="text/javascript">
+             var gitment = new Gitment({
+                 id: document.location.href, 
+                 owner: 'fanhy2114',
+                 repo: 'fanhy2114.github.io',
+                 oauth: {
+                     client_id: '8915c856073f634bc377',
+                     client_secret: 'd66d45915ddc2bc964258506b9bb7ff2887969c6'
+                 }});
+             gitment.render('gitment-container');
+         </script>
+     
+ 
 
   
 
