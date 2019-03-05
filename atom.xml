@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fanhy2114.github.io/"/>
-  <updated>2019-03-03T08:31:27.991Z</updated>
+  <updated>2019-03-05T05:08:15.523Z</updated>
   <id>http://fanhy2114.github.io/</id>
   
   <author>
@@ -17,35 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Felix的第一个博客</title>
-    <link href="http://fanhy2114.github.io/2019/03/02/My-First-Bolg/"/>
-    <id>http://fanhy2114.github.io/2019/03/02/My-First-Bolg/</id>
-    <published>2019-03-02T04:30:33.000Z</published>
-    <updated>2019-03-03T08:31:27.991Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hello Hexo</p>]]></content>
-    
-    <summary type="html">
-    
-      this is a description
-    
-    </summary>
-    
-      <category term="Text" scheme="http://fanhy2114.github.io/categories/Text/"/>
-    
-    
-      <category term="tag1" scheme="http://fanhy2114.github.io/tags/tag1/"/>
-    
-      <category term="canvas" scheme="http://fanhy2114.github.io/tags/canvas/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
-    <link href="http://fanhy2114.github.io/2019/03/02/hello-world/"/>
-    <id>http://fanhy2114.github.io/2019/03/02/hello-world/</id>
-    <published>2019-03-02T03:18:02.045Z</published>
-    <updated>2019-03-02T03:18:02.045Z</updated>
+    <link href="http://fanhy2114.github.io/2019/03/05/hello-world/"/>
+    <id>http://fanhy2114.github.io/2019/03/05/hello-world/</id>
+    <published>2019-03-05T05:08:15.523Z</published>
+    <updated>2019-03-05T05:08:15.523Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
@@ -58,6 +34,32 @@
     
     </summary>
     
+    
+      <category term="tag3" scheme="http://fanhy2114.github.io/tags/tag3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Felix的第一个博客</title>
+    <link href="http://fanhy2114.github.io/2019/03/02/My-First-Bolg/"/>
+    <id>http://fanhy2114.github.io/2019/03/02/My-First-Bolg/</id>
+    <published>2019-03-02T04:30:33.000Z</published>
+    <updated>2019-03-05T05:11:01.766Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Hello-Hexo"><a href="#Hello-Hexo" class="headerlink" title="Hello Hexo"></a>Hello Hexo</h3><pre><code>这是第一次使用Hexo以及Github去搭建一个自己的简单博客系统，其中遇到了不少的问题，但是收获还是挺多的</code></pre><h3 id="Second-Part"><a href="#Second-Part" class="headerlink" title="Second Part"></a>Second Part</h3><pre><code>只是用来看一下页面的布局是什么样子的</code></pre><h3 id="Finally"><a href="#Finally" class="headerlink" title="Finally"></a>Finally</h3><pre><code>最后再加个结尾吧</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      this is a description
+    
+    </summary>
+    
+      <category term="Text" scheme="http://fanhy2114.github.io/categories/Text/"/>
+    
+    
+      <category term="tag1" scheme="http://fanhy2114.github.io/tags/tag1/"/>
+    
+      <category term="tag2" scheme="http://fanhy2114.github.io/tags/tag2/"/>
     
   </entry>
   
