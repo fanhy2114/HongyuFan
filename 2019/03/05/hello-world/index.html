@@ -597,32 +597,7 @@ var jiathis_config={
           
 
   
-    
-     
-     
-     
-     
-     <link rel="stylesheet" href="https://www.wenjunjiang.win/css/gitment.css">
-     <script src="https://www.wenjunjiang.win/js/gitment.js"></script>
-     
-         <script type="text/javascript">
-             var gitment = new Gitment({
-                 id: '<%= page.date %>',
-                 owner: 'fanhy2114',
-                 repo: 'fanhy2114.github.io',
-                 oauth: {
-                     client_id: '8915c856073f634bc377',
-                     client_secret: 'd66d45915ddc2bc964258506b9bb7ff2887969c6'
-                 }});
-             gitment.render('gitment-container');
-         </script>
-     
- 
-
-     
-        <div id="gitment-container"></div>
-    
-
+    <div class="comments" id="comments"></div>
   
 
 
@@ -1002,28 +977,30 @@ var jiathis_config={
 
 
 
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: true,
+        notify: false,
+        appId: 'oafq0oRJPRolrspBn4rqPTu9-gzGzoHsz',
+        appKey: 'Fj8BpPG6XHGFdTmBGhvdtQRd',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'20' || 10,
+    });
+  </script>
 
 
-     
-     
-     
-     
-     <link rel="stylesheet" href="https://www.wenjunjiang.win/css/gitment.css">
-     <script src="https://www.wenjunjiang.win/js/gitment.js"></script>
-     
-         <script type="text/javascript">
-             var gitment = new Gitment({
-                 id: '<%= page.date %>',
-                 owner: 'fanhy2114',
-                 repo: 'fanhy2114.github.io',
-                 oauth: {
-                     client_id: '8915c856073f634bc377',
-                     client_secret: 'd66d45915ddc2bc964258506b9bb7ff2887969c6'
-                 }});
-             gitment.render('gitment-container');
-         </script>
-     
- 
+
 
 
   
